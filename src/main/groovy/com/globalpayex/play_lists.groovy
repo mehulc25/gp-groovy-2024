@@ -72,3 +72,10 @@ def marksDivisions = [
 println marksDivisions.flatten().average()
 
 
+def names = ["mehul", "jane", null, "rahul"]
+println names*.toUpperCase() // wont give a null pointer exception. null will be ignored
+
+// safe object navigation (?.)
+names.each {println it?.toUpperCase()}
+
+

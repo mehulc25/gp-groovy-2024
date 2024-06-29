@@ -52,3 +52,29 @@ println studentData.strip()
 
 def maliciousData = '    '
 println maliciousData.isAllWhitespace()
+
+def m1 = "mehul chopra"
+def m2 = "mehul"
+def m3 = m2 + " chopra"
+def m4 = "mehul chopra"
+
+println m1
+println m3
+
+println m1 == m3 // equals
+// in groovy strings can be compared using ==
+println m1 === m3 // compare addresses
+println m1 === m4 // compare addresses
+
+def a = 5
+def b = 4 + 1
+
+// println a == b
+
+
+
+
+
+
+
+
